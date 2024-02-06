@@ -5,6 +5,7 @@ public class SecondsToHourMinutesAndSeconds {
     System.out.println(secondsToHms(86399));
     System.out.println(secondsToHms(43860));
     System.out.println(secondsToHms(55775));
+
     System.out.print("\nEnter the amount of seconds you want to convert: ");
     Scanner inputScanner = new Scanner(System.in);
     int userSeconds = inputScanner.nextInt();
