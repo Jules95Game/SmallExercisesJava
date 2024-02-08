@@ -14,6 +14,7 @@ public class LastDigit {
     System.out.println(lastDigit(userNumber1, userNumber2));
   }
 
+
   private static boolean lastDigit(int firstNum, int secondNum) {
     return firstNum % 10 == secondNum % 10;
   }

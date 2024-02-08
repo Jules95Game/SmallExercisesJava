@@ -12,6 +12,7 @@ public class SecondsToHourMinutesAndSeconds {
     System.out.println(secondsToHms(userSeconds));
   }
 
+
   private static String secondsToHms(int totalSeconds) {
     int hours = totalSeconds / 3600;
     int minutes = (totalSeconds % 3600) / 60;

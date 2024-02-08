@@ -11,6 +11,7 @@ public class Or35 {
     System.out.println(or35(userNumber));
   }
 
+
   private static boolean or35(int number) {
     return number % 3 == 0 || number % 5 == 0;
   }
