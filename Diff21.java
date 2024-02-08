@@ -7,6 +7,7 @@ public class Diff21 {
     System.out.println(diff21(34)); // 26
   }
 
+
   private static int diff21(int n) {
     if (n > 21) {
       return Math.abs(n - 21) * 2;
