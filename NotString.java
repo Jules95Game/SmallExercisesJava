@@ -6,6 +6,7 @@ public class NotString {
     System.out.println(notString("XP")); // "not XP"
   }
 
+
   private static String notString(String input) {
     if (input.length() >= 3 && input.substring(3).equals("not")) return input;
 
